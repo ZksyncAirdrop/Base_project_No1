@@ -62,3 +62,4 @@ tx_hash_hex = tx_hash.hex()
 receipt_status = receipt["status"]
 receipt_gas_used = receipt["gasUsed"]
 receipt_block = receipt["blockNumber"]
+receipt_tx_index = receipt["transactionIndex"]
