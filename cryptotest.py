@@ -33,3 +33,4 @@ print("Transaction Hash:", tx_hash.hex())
 ```
 receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 print("Block Number:", receipt.blockNumber)
+chain_id = w3.eth.chain_id
