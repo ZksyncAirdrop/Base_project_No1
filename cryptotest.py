@@ -68,3 +68,4 @@ transaction_value = transaction["value"]
 transaction_gas = transaction["gas"]
 transaction_sender = transaction["from"]
 transaction_receiver = transaction["to"]
+wallet_checksum = w3.to_checksum_address(wallet_address)
