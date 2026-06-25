@@ -52,3 +52,4 @@ block_timestamp = latest_block_data["timestamp"]
 block_hash = latest_block_data["hash"].hex()
 block_tx_count = len(latest_block_data["transactions"])
 contract_code = w3.eth.get_code(contract_address)
+contract_exists = len(contract_code) > 0
