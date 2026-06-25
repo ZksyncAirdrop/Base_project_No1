@@ -37,3 +37,4 @@ chain_id = w3.eth.chain_id
 latest_block = w3.eth.block_number
 balance = w3.eth.get_balance(wallet_address)
 print("Wallet:", wallet_address)
+print("Chain ID:", chain_id)
