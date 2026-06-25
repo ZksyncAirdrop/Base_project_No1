@@ -80,3 +80,4 @@ wallet_lower = wallet_address.lower()
 contract_lower = contract_address.lower()
 latest_block_hex = hex(current_block)
 timestamp_now = w3.eth.get_block(current_block)["timestamp"]
+chain_identifier = int(chain_id)
