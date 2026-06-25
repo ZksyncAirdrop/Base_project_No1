@@ -58,3 +58,4 @@ receiver_balance = w3.eth.get_balance(contract_address)
 receiver_balance_ether = w3.from_wei(receiver_balance, "ether")
 estimated_fee = gas_estimate * current_gas_price
 estimated_fee_eth = w3.from_wei(estimated_fee, "ether")
+tx_hash_hex = tx_hash.hex()
