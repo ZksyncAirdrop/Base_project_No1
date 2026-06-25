@@ -41,3 +41,4 @@ print("Chain ID:", chain_id)
 print("Latest Block:", latest_block)
 print("Balance:", balance)
 tx_count = w3.eth.get_transaction_count(wallet_address)
+network_version = w3.net.version
