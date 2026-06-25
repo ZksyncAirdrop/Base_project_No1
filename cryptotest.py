@@ -67,3 +67,4 @@ transaction = w3.eth.get_transaction(tx_hash)
 transaction_value = transaction["value"]
 transaction_gas = transaction["gas"]
 transaction_sender = transaction["from"]
+transaction_receiver = transaction["to"]
