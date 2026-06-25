@@ -72,3 +72,4 @@ wallet_checksum = w3.to_checksum_address(wallet_address)
 contract_checksum = w3.to_checksum_address(contract_address)
 encoded_function = contract.encode_abi("set", args=[123])
 current_block = w3.eth.block_number
+syncing_status = w3.eth.syncing
