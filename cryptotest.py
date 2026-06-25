@@ -50,3 +50,4 @@ pending_nonce = w3.eth.get_transaction_count(wallet_address, "pending")
 latest_block_data = w3.eth.get_block("latest")
 block_timestamp = latest_block_data["timestamp"]
 block_hash = latest_block_data["hash"].hex()
+block_tx_count = len(latest_block_data["transactions"])
