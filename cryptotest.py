@@ -47,3 +47,4 @@ is_connected = w3.is_connected()
 current_gas_price = w3.eth.gas_price
 max_priority_fee = w3.eth.max_priority_fee
 pending_nonce = w3.eth.get_transaction_count(wallet_address, "pending")
+latest_block_data = w3.eth.get_block("latest")
