@@ -61,3 +61,4 @@ estimated_fee_eth = w3.from_wei(estimated_fee, "ether")
 tx_hash_hex = tx_hash.hex()
 receipt_status = receipt["status"]
 receipt_gas_used = receipt["gasUsed"]
+receipt_block = receipt["blockNumber"]
