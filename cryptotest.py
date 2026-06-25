@@ -45,3 +45,4 @@ network_version = w3.net.version
 client_version = w3.client_version
 is_connected = w3.is_connected()
 current_gas_price = w3.eth.gas_price
+max_priority_fee = w3.eth.max_priority_fee
