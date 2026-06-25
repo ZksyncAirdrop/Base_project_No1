@@ -55,3 +55,4 @@ contract_code = w3.eth.get_code(contract_address)
 contract_exists = len(contract_code) > 0
 sender_balance_ether = w3.from_wei(balance, "ether")
 receiver_balance = w3.eth.get_balance(contract_address)
+receiver_balance_ether = w3.from_wei(receiver_balance, "ether")
