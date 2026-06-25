@@ -44,3 +44,4 @@ tx_count = w3.eth.get_transaction_count(wallet_address)
 network_version = w3.net.version
 client_version = w3.client_version
 is_connected = w3.is_connected()
+current_gas_price = w3.eth.gas_price
