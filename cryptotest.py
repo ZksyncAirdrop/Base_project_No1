@@ -75,3 +75,4 @@ current_block = w3.eth.block_number
 syncing_status = w3.eth.syncing
 base_fee = latest_block_data.get("baseFeePerGas", 0)
 base_fee_gwei = w3.from_wei(base_fee, "gwei")
+gas_price_gwei = w3.from_wei(current_gas_price, "gwei")
